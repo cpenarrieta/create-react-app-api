@@ -58,8 +58,7 @@ exports.post = function(req, res, next) {
 
     var token = signToken(user._id);
     res.json({
-      token: token,
-      test: "cristian"
+      token: token
     });
   });
 };
