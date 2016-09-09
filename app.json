@@ -1,0 +1,26 @@
+{
+  "name":"create-react-app-api",
+  "repository": "https://github.com/cpenarrieta/create-react-app-api",
+  "scripts":{
+    "postdeploy":""
+  },
+  "env":{
+    "JWT": {
+      "required": true
+    },
+    "MONGODB_URI": {
+      "required": true
+    },
+    "NODE_ENV": {
+      "required": true
+    }
+  },
+  "addons": [
+    "heroku-mongolab"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
+}
