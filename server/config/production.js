@@ -1,4 +1,4 @@
 module.exports = {
-  logging: false,
+  logging: true,
   clientUrl: ["http://localhost:3000"]
 };
