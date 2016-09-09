@@ -8,6 +8,9 @@ const config = {
   expireTime: "30d", // 30 days
   secrets: {
     jwt: process.env.JWT || 'super secret key'
+  },
+  db: {
+    url: process.env.MONGOLAB_URI || 'mongodb://localhost/apitest'
   }
 };
 
